@@ -8,7 +8,7 @@ import CardModal from '../components/CardModal';
 import Lobby from '../components/Lobby'; 
 import { FaChalkboardTeacher, FaUserEdit, FaSave, FaTimes, FaHandHolding, FaGavel, FaStar, FaCube, FaPlay, FaRedo, FaLock, FaVolumeUp, FaVolumeMute, FaSignOutAlt, FaTrash, FaPlus } from 'react-icons/fa';
 
-const SOCKET_URL = 'http://localhost:3001';
+const SOCKET_URL = 'https://monoeduproject-production.up.railway.app';
 
 export default function Home() {
   const [isInGame, setIsInGame] = useState(false); 
